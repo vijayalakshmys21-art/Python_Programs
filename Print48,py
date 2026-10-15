@@ -1,0 +1,12 @@
+#polymorphism many forms
+#method overriding
+class Phone:
+    def camera (self):
+        print ("taking a normal photo")
+class smartphone(Phone):
+    def camera(self):
+        print("taking a portrait photo")
+mi=smartphone()
+mi.camera()
+nokia=Phone()
+nokia.camera()

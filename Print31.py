@@ -1,0 +1,10 @@
+for values in numbers:
+    print(values,end=" ")
+print()
+arr2=(10,20,30,20)
+print(arr2.count(20))
+print(arr2.index(30))
+print(len(arr2))
+print(sum(arr2))
+print(min(arr2))
+print(max(arr2))
